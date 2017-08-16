@@ -1,0 +1,163 @@
+/* colors 
+
+White - #FCFFF5
+Gray - #D1DBBD
+Greenish Gray - #91AA9D
+Satin blue - #3E606F
+Darker Blue - #193441
+
+*/
+
+
+
+/*global */
+
+body {
+	background-color: #FCFFF5;
+	padding: 0;
+	margin: 0;
+}
+p {
+	color: #FCFFF5;
+}
+
+#page {
+	width: 90%;
+	margin: auto;
+}
+
+.section-announce {
+	color: #193441;
+	line-height: 1.4em;
+	border-bottom: .03em solid #D1DBBD;
+	display: inline-block;
+}
+
+
+/* ---------------  Header Area -------------------- */
+
+ /* header {
+	background-color: #193441;
+	width: 100%;
+	height: 110px;
+	margin: 0 0 2.5em 0;
+	padding: 1em;
+	border-bottom: .25em solid #3E606F;
+}
+
+*/
+
+.avatar {
+	background-color: #91AA9D;
+	width: 100px;
+	height: 100px;
+	margin-right: 30px;
+	border-radius: 50%;
+	border: .3em solid #3E606F;
+	float: left;
+}
+
+.hero {
+	overflow: auto;
+}
+
+.hero h1 {
+	color: #FCFFF5;
+}
+
+/* home page css */
+
+
+
+/* -------------------- Journal Area ----------------------- */
+
+.image {
+	float: left;
+	margin: .5em 2em .5em .5em;
+	border: .1em solid #91AA9D;
+}
+
+.journal {
+	background-color: #91AA9D;
+	width: 90%;
+	padding: 1em;
+	margin: auto;
+	overflow: auto;
+	box-shadow: .1em .3em .5em  #193441;
+}
+
+.journal .inner h1 {
+	color: #3E606F;
+	font-size: 2.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.journal .inner p {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+/* ---------------------- About and Contact Wrapper --------------*/
+
+
+.about-contact-wrap {
+	width: 90%;
+	margin: auto;
+}
+
+
+/* ---------------------- About Us - Company --------------------- */
+.about-comp {
+	background-color: #3E606F;
+	margin: 1em 0 1em 0;
+	padding: 3em;
+	clear: both;
+	box-shadow: .1em .3em .5em  #193441;
+}
+
+.about-comp h2 {
+	color: #D1DBBD;
+}
+
+/* --------------------  Contact Us - Company ------------------ */
+
+.contact-comp {
+	background-color: #3E606F;
+	margin: 0;
+	padding: 3em;
+	box-shadow: .1em .3em .5em  #193441;
+}
+
+.contact-comp h2 {
+	color: #D1DBBD;
+}
+
+/* Footer */
+
+.footer-links {
+	text-align: center;
+	list-style-type: none;
+	margin: 3em 0 3em 0;
+}
+
+.footer-links li  {
+	display: inline; 
+}
+
+.footer-links li a:link, a:visited {
+	text-decoration: none;
+	color: #3E606F;
+	padding: 0 .5em 0 0;
+	font-weight: 700;
+}
+
+.footer-links li a:hover {
+	color: #D1DBBD;
+}
+
+/* remember attr selectors [attr=""] */
+
+/* child combinators section > a {styles} */
+
+/* p:before{content: "";} */

@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+/* colors 
+
+White - #FCFFF5
+Gray - #D1DBBD
+Greenish Gray - #91AA9D
+Satin blue - #3E606F
+Darker Blue - #193441
+Orange - #e8491d
+
+*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #FCFFF5;
+}
+
+/* global */
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* header */
+
+.container-header {
+	padding: 15px 0;
+}
+
+header {
+	background-color: #193441;
+	color: #FCFFF5;
+	padding: 0;
+	min-height: 75px;
+	border-bottom: 2.5px solid #e8491d;
+}
+
+header a {
+	color: #FCFFF5;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px;
+}
+
+header #branding {
+	float: left;
+	margin: 0 0 0 15px;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header .highlight {
+	color: #e8491d;
+	font-size: 36px;
+}
+header nav {
+	float: right;
+	margin: 15px 0;
+}
+
+
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+
+}
+
+
+li > a:hover {
+	color: #e8491d;
+	transition: .1s ease-in;
+	
+}
+
+/* site search */
+
+.search-box {
+	font-size: 24px;
+	height: 125px;
+	text-align: center;
+}
+
+.search-box-input {
+	font-size: inherit;
+	text-align: center;
+	width: 25%;
+	background: none;
+	border: .1em solid #333;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+.search-box-input:hover,
+.search-box-input:focus {
+	transition: .8s ease;
+	opacity: .7;
+	border-color: #999;
+	background-color: rgba(252, 255, 245, .1);
+	outline: none;
+}
+
+
+
+/* showcase */
+
+#showcase {
+	min-height: 700px;
+	background: url('../images/showcase.jpg') no-repeat 0 -500px;
+	text-align: center;
+	color: #FCFFF5;
+}
+
+#showcase h1 {
+	margin: 350px 0 25px 0;
+	font-size: 55px;
+	text-shadow: 2px 5px 5px #222;
+}
+
+#showcase {
+	font-size: 20px;
+}
+
+/* About.html showcase */
+
+#about-showcase {
+	min-height: 500px;
+	background: url('../images/about-showcase.jpg') no-repeat 0 -600px;
+	text-align: center;
+	color: #FCFFF5;
+}
+
+#about-showcase h1 {
+	margin: 200px 0 0 0;
+	font-size: 55px;
+	text-shadow: 2px 5px 5px #222;
+}
+
+#about-showcase {
+	font-size: 20px;
+}
+
+/* contact.html showcase */
+
+#contact-showcase {
+	min-height: 500px;
+	background: url('../images/contact-showcase.jpg') no-repeat 0 -300px;
+	text-align: center;
+	color: #FCFFF5;
+}
+
+#contact-showcase h1 {
+	margin: 150px 0 0 0;
+	font-size: 55px;
+	text-shadow: 2px 5px 5px #222;
+}
+
+#contact-showcase {
+	font-size: 20px;
+}
+
+
+/* featured */
+
+#featured {
+	min-height: 500px;
+	margin: 100px 0 0 0;
+
+}
+
+#featured .featured-journal {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+#featured .featured-journal img {
+		height: 250px;
+		padding: 5px;
+		border-radius: 50%;
+}
+
+.image {
+  opacity: 1;
+  transition: 1s ease;
+  backface-visibility: hidden;
+}
+
+
+
+.featured-journal:hover .image {
+  opacity: 0.3;
+  transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transition: 1s ease;
+
+
+}
+
+/* journal-home */
+
+#journal-home {
+	min-height: 500px;
+	background-color: #193441;
+	text-align: center;
+	color: #FCFFF5;
+}
+
+#journal-home h1 {
+	margin: 100px 0 0 0;
+	font-size: 55px;
+}
+
+#journal-home {
+	font-size: 20px;
+}
+
+/* about-home */
+
+#about-home {
+	min-height: 500px;
+	background-color: #FCFFF5;
+	text-align: center;
+	color: #193441;
+}
+
+#about-home h1 {
+	margin: 100px 0 0 0;
+	font-size: 55px;
+}
+
+#about-home {
+	font-size: 20px;
+}
+
+.container-section {
+	width: 70%;
+	margin: auto;
+	padding-top: 25px;
+}
+
+/* about.html journal */
+
+#journal-example {
+	background: url('../images/journal-example.jpg') no-repeat -100px 0;
+	width: 40%;
+	height: 700px;
+	float: left;
+	margin-bottom: 50px;
+	margin-right: 25px;
+	background-color: #193441;
+	border-radius: 10%;
+}
+
+#article-example {
+	float: right;
+	width: 55%;
+	height: 700px;
+	margin-top: 100px;
+	line-height: 24px;
+	padding: 0;
+}
+
+#article-example h1{
+	margin: 0;
+	padding: 0;
+}
+
+.container-journal-example {
+	margin: 0;
+	padding: 50px;
+}
+/* footer **/
+
+footer {
+	color: #FCFFF5;
+	padding: 20px;
+	background-color: #e8491d;
+	text-align: center;
+
+}
+
+#about-footer {
+	clear: both;
+}
