@@ -108,15 +108,7 @@ nav li {
 	color: #FCFFF5;
 }
 
-nav a {
-	color: #FCFFF5;
-}
-
-#nav a:visited {
-	color: #FCFFF5;
-}
-
-#nav a:hover {
+nav a:hover {
 	transition: .5s ease;
 	color: #e8491d;
 }
@@ -171,87 +163,33 @@ nav a {
 
 /* news */
 
-#why {
-	width: 100%;
-	height: 500px;
-	background-color: #193441;
-	border-top: 1px solid #193441;
-
+#news {
+	height: 150px;
+	width: 500px;
+	margin-top: 50px;
+	text-align: left;
 }
 
-
-#why-choose {
-	width: calc(100% - 900px);
-	padding: 20px 0 0 20px;
-	float: left;
-	color: #FCFFF5;
-}
-
-#why-choose h2 {
-	font-size: 36px;
-	color: #FCFFF5;
-}
-
-#create-journal {
-	width: 100%;
-	margin: auto;
-	height: 500px;
-	color: #FCFFF5;
-	background-color: #193441;
-	text-align: center;
-	position: relative;
-    z-index: 1;
-}
-
-#create-journal #bg{
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(../video/coding.gif) ;
-    opacity: .2;
-    width: 100%;
-    height: 100%;
-}
-
-#create-pad {
-	padding: 125px;
-	margin: 0px 300px;
-
-}
-
-#create-journal h3 {
-	font-size: 42px;
+.show-art h3 {
 	color: #e8491d;
-	margin: 0 0 25px 0;
+	padding: 0;
 }
 
-#announce h2 {
-	font-size: 24px;
-	color: #e8491d;
-}
-
-#news li {
-	margin-left: 25px;
+.show-art li{
 	list-style-type: circle;
+	padding-left: 10px;
+	margin-left: 50px;
 }
 
-div a {
-	color: #FCFFF5;
+.show-art a{
 	text-decoration: none;
-	
+	color:  #FCFFF5;
 }
 
-div a:visited {
-	color: #FCFFF5;
-}
-
-div a:hover {
-	transition: .2s ease;
+aside a:hover {
 	color: #e8491d;
 }
+
 
 /* About.html showcase */
 
@@ -297,7 +235,6 @@ div a:hover {
 #featured {
 	min-height: 500px;
 	margin: 100px 0 0 0;
-	clear: both;
 
 }
 
@@ -331,6 +268,51 @@ div a:hover {
 
 
 }
+
+/* why choose us, create a journal */
+
+.why-us {
+	float: left;
+	width: 45%;
+	
+}
+
+
+.contain-why {
+	padding: 10px 0 0 50px;
+}
+
+.contain-create {
+	background-color: rgba(0,0,0,.7);
+	padding: 0px 200px 100px 25px;
+
+}
+
+.visible {
+	padding-left: 60px;
+	padding-top: 22px;
+}
+
+#journal-home {
+	min-height: 500px;
+	background-color: #193441;
+	border-top: 30px solid #e8491d;
+	color: #FCFFF5;
+
+}
+
+#journal-home h3 {
+	font-size: 36px;
+}
+
+.create {
+	min-height: 500px;
+	width: 45%;
+	float: right;
+	background-image: url(../video/coding.gif);
+	
+}
+
 
 /* discover proads */
 
@@ -414,6 +396,10 @@ div a:hover {
 	color: #333;
 }
 
+.indent {
+	padding-left: 10px;
+}
+
 #journal-section {
 	margin-top: 100px;
 
@@ -471,56 +457,6 @@ div a:hover {
 
 #communicate h1 {
 	font-size: 36px;
-}
-
-/* faq */
-
-
-#faq-showcase {
-	background-color: #3E606F;
-}
-
-#faq-headline {
-	font-size: 48px;
-	color: #222;
-	margin: 25px 0px 0px 25px;
-}
-
-.faq-container {
-	width: 80%;
-	margin: 50px 0px 25px 0px;
-}
-
-.faq-container h2 {
-	color: #e8491d;
-	padding: 0;
-	margin: 0 0 10px 0;
-}
-
-.faq-container p {
-	color: #193441;
-}
-
-.faq-container li {
-	padding: 15px 0px 25px 25px;
-}
-
-.faq-container li:nth-child(odd) {
-	background-color: rgba(0,0,0,.1);
-}
-
-.indent {
-	margin-left: 25px;
-}
-
-#more-info {
-	padding: 0;
-	margin: 0;
-}
-
-.more-info-container {
-	color: #222;
-	padding: 0px 0px 25px 25px;
 }
 
 /* footer **/
