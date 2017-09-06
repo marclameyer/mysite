@@ -1,0 +1,31 @@
+body {
+	background-color: #222;
+	width: 1280px;
+	height: 720px;
+}
+
+video {
+	padding: 100px 0px 100px 300px;
+}
+
+
+#return {
+	margin-left: 850px;
+	margin-bottom: 50px;
+}
+
+a.btn-watch {
+	display: inline-block;
+	margin: auto;
+	background-color: #e8491d;
+	border-radius: 10px;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #FCFFF5;
+}
+
+a.btn-watch:hover {
+	transition: .5s ease;
+	background-color: rgba(255,255,255,.3);
+}
+
